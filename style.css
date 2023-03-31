@@ -18,7 +18,7 @@
     --fs-300: .9325rem;
     --fs-400: 1rem;
     --fs-500: 1.2rem;
-    --fs-700: 2rem;
+    --fs-700: 1.5rem;
 
     --fw-normal: 400;
     --fw-bold: 700;
@@ -115,12 +115,13 @@ li[class] {
     background-color: var(--clr-neutral-100);
 }
 .subscription__title {
-    font-size: var(--fs-500);
+    font-size: var(--fs-700);
     font-weight: var(--fw-bold);
     color: var(--clr-primary-400);
-    margin-bottom: 1.25em;
+    margin-bottom: 1em;
 }
 .subscription__tagline {
+    font-size: var(--fs-500);
     color: var(--clr-accent-400);
     margin-top: 1em;
     margin-bottom: .5em;
