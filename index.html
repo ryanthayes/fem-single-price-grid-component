@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
   <title>FEM | Single Price Grid Component</title>
@@ -13,21 +17,23 @@
   <main>
 
     <div class="subscription grid">
-      <div class="subscription__header">
+      <div class="subscription__header padding-1">
         <h1 class="subscription__title">Join our community</h1>
         <p class="subscription__tagline">30-day, hassle-free money back guarantee</p>
-        <p>Gain access to our full library of tutorials along with expert code reviews.</p> 
-        <p>Perfect for any developers who are serious about honing their skills.</p>
+        <p class="subscription__body">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
       </div>
 
-      <div class="subscription__cta">
+      <div class="subscription__cta padding-1">
         <h2 class="sub-title">Monthly Subscription</h2>
-        <p class="subscription__cost">$29 <span>per month</span></p>
+        <div class="subscription__cost flex align-center">
+          <p>$29</p>
+          <p><span>per month</span></p>
+        </div>
         <p>Full access for less than $1 a day</p>
-        <button class="button">Sign Up</button>
+        <button class="button mt-1">Sign Up</button>
       </div>
 
-      <div class="subscription__about">
+      <div class="subscription__about padding-1">
         <h2 class="sub-title">Why Us</h2>
         <ul>
           <li class="subscription__list">Tutorials by industry experts</li>
